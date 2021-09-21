@@ -10,10 +10,10 @@ public class Conexion {
 	private Connection connection = null;
 
 
-	private String bd = "minuto_85";
+	private String bd = "proyecto001";
 	private String url = "jdbc:mysql://localhost:3306/" + bd;
 	private String user = "root";
-	private String pass = "1234";
+	private String pass = "";
 	
 	
 	public Connection Conectar() {
@@ -22,11 +22,11 @@ public class Conexion {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection(url,user,pass);
-		//	JOptionPane.showMessageDialog(null, "** CONEXION OK **");
+			JOptionPane.showMessageDialog(null, "** CONEXION OK **");
 			
 			
 		} catch (Exception e) {
-		//	JOptionPane.showMessageDialog(null, "** ERROR DE CONEXION **" +e);
+			JOptionPane.showMessageDialog(null, "** ERROR DE CONEXION **" +e);
 		}
 		
 		return connection;

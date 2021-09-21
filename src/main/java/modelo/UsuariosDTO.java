@@ -2,52 +2,43 @@ package modelo;
 
 public class UsuariosDTO {
 	
-	private long cedula_usuario;
-	private String email_usuario;
-	private String nombre_usuario;
-	private String pass;
+	private String cedula;
+	private String nombre;
+	private String correo;
 	private String usuario;
+	private String clave;
 	
-	public UsuariosDTO(long cedula_usuario, String email_usuario, String nombre_usuario, String pass,
-			String usuario) {
-		
-		this.cedula_usuario = cedula_usuario;
-		this.email_usuario = email_usuario;
-		this.nombre_usuario = nombre_usuario;
-		this.pass = pass;
+	public UsuariosDTO(String cedula, String nombre, String correo, String usuario, String clave) {
+		super();
+		this.cedula = cedula;
+		this.nombre = nombre;
+		this.correo = correo;
 		this.usuario = usuario;
+		this.clave = clave;
 	}
 
-	public long getCedula_usuario() {
-		return cedula_usuario;
+	public String getCedula() {
+		return cedula;
 	}
 
-	public void setCedula_usuario(long cedula_usuario) {
-		this.cedula_usuario = cedula_usuario;
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
 	}
 
-	public String getEmail_usuario() {
-		return email_usuario;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setEmail_usuario(String email_usuario) {
-		this.email_usuario = email_usuario;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
-	public String getNombre_usuario() {
-		return nombre_usuario;
+	public String getCorreo() {
+		return correo;
 	}
 
-	public void setNombre_usuario(String nombre_usuario) {
-		this.nombre_usuario = nombre_usuario;
-	}
-
-	public String getPass() {
-		return pass;
-	}
-
-	public void setPass(String password) {
-		this.pass = password;
+	public void setCorreo(String correo) {
+		this.correo = correo;
 	}
 
 	public String getUsuario() {
@@ -56,6 +47,14 @@ public class UsuariosDTO {
 
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
+	}
+
+	public String getClave() {
+		return clave;
+	}
+
+	public void setClave(String clave) {
+		this.clave = clave;
 	}
 	
 	

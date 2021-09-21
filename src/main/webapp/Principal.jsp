@@ -25,8 +25,8 @@
 			</h1>
 
 			<nav>
-				<a href="#" >Usuarios</a> <a href="#">Clientes</a> <a
-					href="#">Proveedores</a> <a href="#">Productos</a> <a href="#">Ventas</a>
+				<a href="http://localhost:8080/ProyectoMinuto85/Usuarios.jsp" >Usuarios</a> <a href="http://localhost:8080/ProyectoMinuto85/Clientes.jsp">Clientes</a> <a
+					href="http://localhost:8080/ProyectoMinuto85/proveedores.jsp">Proveedores</a> <a href="#">Productos</a> <a href="#">Ventas</a>
 				<a href="#">Reportes</a>
 			</nav>
 
