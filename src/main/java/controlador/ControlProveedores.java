@@ -60,7 +60,7 @@ public class ControlProveedores extends HttpServlet {
 			
 			String nit, nombre, direccion, telefono, ciudad;
 			
-			nit = request.getParameter("nit");
+			nit = request.getParameter("codigo");
 			ProveedoresDTO pro = proDAO.consultarProveedores(nit);
 			
 			nit = pro.getNit();

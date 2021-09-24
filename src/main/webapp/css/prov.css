@@ -1,0 +1,63 @@
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: 10px;
+  color: #7a7a7a;
+  font-family: candara;
+}
+
+body {
+  background: black;
+}
+.contenedor-todo {
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	padding:17px;
+	border: 1px solid #9D95C3 ;
+	border-radius: 10px;
+	width: 300px; 
+	background: linear-gradient(90deg, #0054A1, #039ECA);
+	position: absolute;
+	left:35%;
+	transform: tranlate(-50%, -50%);
+}
+
+
+label {
+  display: block; /*para que se pongan los elementos uno encima de otro*/
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  font-family: candara;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"]{
+  width: 100%;
+  height: 30px;
+  border: 0px;
+  outline: 0px; /*para quitar los recuadros despues del border: 0px;*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); /*atributo SOLID para que el borde se vea*/
+  color:var(--color1); /* para agregarle color al texto que se escribe */
+  font-size: 20px;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  margin-top: 60px;
+  color: black;
+  border: 0px;
+
+  font-weight: 300;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+input[type="submit"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px #0000004d;
+  transition: all 0.2s;
+}

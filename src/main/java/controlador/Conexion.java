@@ -9,13 +9,11 @@ public class Conexion {
 	
 	private Connection connection = null;
 
-
-	private String bd = "proyecto001";
+	private String bd = "tienda_generica";
 	private String url = "jdbc:mysql://localhost:3306/" + bd;
 	private String user = "root";
 	private String pass = "";
-	
-	
+
 	public Connection Conectar() {
 		
 		try {
@@ -32,6 +30,8 @@ public class Conexion {
 		return connection;
 		
 	}
+
+
 	
 }
 	
