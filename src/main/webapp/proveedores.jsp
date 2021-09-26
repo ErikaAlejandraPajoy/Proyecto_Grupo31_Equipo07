@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width,
 user-scalable=no, 
 initial-scale=1.0, maximum-scale=1.0, minimum-sclae=1.0">
-<link rel="stylesheet" href="css/prov.css" />
+<link rel="stylesheet" href="css/prueba.css" />
 <title>Interfaz proveedores</title>
 </head>
 
@@ -21,7 +21,7 @@ telefono = request.getParameter("telefono");
 ciudad = request.getParameter("ciudad");
 
 %>
-	<h1 class="titulo">PROVEEDORES</h1>
+	<h1 class="titulo">Proveedores Minuto 85</h1>
 	<form action="ControlProveedores" method="post">
 		<div class="contenedor-todo">
 		<label for="">NIT </label><input type="number" name="nit" id="nit" value="<%=nit%>"><br><br>
